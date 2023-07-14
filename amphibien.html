@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <met charset="utf-8">
+    </met>
+    <title>
+        Amphibien
+    </title>
+    <link id="um" rel="stylesheet" href=".\stylesheet08.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&Roboto+Mono">
+    <!--Stylesheet-->
+    <link rel="icon" href=".\favicon.ico">
+    <!--Tab icon-->
+
+
+</head>
+
+<body>
+    <h1>Amphibien</h1>
+
+    <script>
+        // JavaScript code to toggle the 'maximized' class on the clicked image container
+        document.addEventListener('DOMContentLoaded', function() {
+          var maxImg = document.querySelectorAll('.viecher2');
+      
+          maxImg.forEach(function(container) {
+            container.addEventListener('click', function() {
+              container.classList.toggle('maximized');
+            });
+          });
+        });
+
+      </script>
+
+
+    <div class="fixed" id="backButton">
+        <a href=".\nabudings.html">Zurück</a>
+    </div>
+
+    <div class="viecher2">
+        <img src=".\bilder\amphibien\braunfrosch.png" class="bilderV" alt="Braunfrosch" id="imgbraunfrosch"></img>
+        <div class="image-overlay">
+            <h2>Braunfrosch</h2>
+            <p>weitere Informationen: <a href="https://de.wikipedia.org/wiki/Braunfr%C3%B6sche" target="_blank">Wikipedia</a></p>
+        </div>
+    </div>
+    <div class="bildunterschriftdiv">
+        <p class="bildunterschrift">Braunfrosch</p>
+    </div>
+
+    <div class="viecher2">
+        <img src=".\bilder\amphibien\erdkroete.png" class="bilderV" alt="Erdkroete"></img>
+    </div>
+    <div class="bildunterschriftdiv">
+        <p class="bildunterschrift">Erdkröte</p>
+    </div>
+
+    <div class="viecher2">
+        <img src=".\bilder\amphibien\gruenfrosch.png" class="bilderV" alt="Gruenfrosch"></img>
+    </div>
+    <div class="bildunterschriftdiv">
+        <p class="bildunterschrift">Grünfrosch</p>
+    </div>
+
+</body>
+
+
+</html>
