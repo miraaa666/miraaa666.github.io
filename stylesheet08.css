@@ -52,7 +52,7 @@ a :hover {
 
 .anfangsschrift {
     text-align: center;
-    font-size: 35px;
+    font-size: 60px;
     
 }
 
@@ -163,15 +163,16 @@ h2 {
 
 
 .bildunterschrift {
-    font-size: 28pt;
-    text-align: center;
+    font-size: 60pt;
 
 }
 
 .bildunterschriftdiv {
-    margin-left: center;
-    margin-right: center;
     margin-bottom: 35px;
+}
+
+.linkzusatz {
+    color: lightblue;
 }
 
 
