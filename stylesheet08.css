@@ -194,6 +194,7 @@ h2 {
     left: 5px;
     height: min-content;
     width: min-content;
+    z-index: 99;
 
 }
 
