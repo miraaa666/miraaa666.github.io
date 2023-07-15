@@ -38,6 +38,7 @@ div {
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 a :hover {
@@ -53,6 +54,7 @@ a :hover {
 .anfangsschrift {
     text-align: center;
     font-size: 60px;
+    text-decoration: none;
     
 }
 
@@ -163,11 +165,12 @@ h2 {
 
 
 .bildunterschrift {
-    font-size: 60pt;
+    font-size: 50pt;
 
 }
 
 .bildunterschriftdiv {
+    margin-top: 12px;
     margin-bottom: 35px;
 }
 
@@ -180,7 +183,7 @@ h2 {
     color: black;
     font-weight: bold;
     font-size: 55px;
-    background-color: white;
+    background-color: lightblue;
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -190,3 +193,4 @@ h2 {
     width: min-content;
 
 }
+
