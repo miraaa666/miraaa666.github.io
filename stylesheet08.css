@@ -227,32 +227,15 @@ h2 {
 }
 
 #a01 {
-    position: relative;
-}
 
-#a01::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background-image: url('./bilder/amphibien/gruenfroschTrans.png');
     background-size: cover;
     background-position: center;
 }
 
-#a02 {
-    position: relative;
-}
 
-#a02::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+#a02 {
+
     background-image: url('./bilder/falter/cfalterTrans.png');
     background-size: cover;
     background-position: center;
